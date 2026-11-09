@@ -1,0 +1,90 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Beko Connect",
+        "description": "Sign in with the account you use in the Beko Connect app.",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Sign in again",
+        "description": "The Beko Connect login was rejected. Enter the current password.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot reach the Beko cloud",
+      "invalid_auth": "Login was rejected"
+    },
+    "abort": {
+      "already_configured": "This account is already configured",
+      "reauth_successful": "Signed in again successfully"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "internal_temperature": {
+        "name": "Internal temperature"
+      },
+      "power": {
+        "name": "Power"
+      },
+      "error_code": {
+        "name": "Error code"
+      },
+      "temperature_updated": {
+        "name": "Last temperature update"
+      }
+    },
+    "select": {
+      "swing_vertical": {
+        "name": "Vertical air direction",
+        "state": {
+          "off": "Off",
+          "pos_6": "6 (least open)",
+          "pos_5": "5",
+          "pos_4": "4",
+          "pos_3": "3",
+          "pos_2": "2",
+          "pos_1": "1 (most open)",
+          "auto": "Auto swing"
+        }
+      },
+      "swing_horizontal": {
+        "name": "Horizontal air direction",
+        "state": {
+          "off": "Off",
+          "far_left": "Far left",
+          "left": "Left",
+          "center": "Center",
+          "right": "Right",
+          "far_right": "Far right",
+          "left_center": "Left-center",
+          "right_center": "Right-center",
+          "auto": "Auto swing"
+        }
+      }
+    },
+    "switch": {
+      "turbo": {
+        "name": "Turbo"
+      },
+      "air_clean": {
+        "name": "Air clean"
+      },
+      "auto_drying": {
+        "name": "Auto drying"
+      }
+    },
+    "binary_sensor": {
+      "display_off": {
+        "name": "Display light off"
+      }
+    }
+  }
+}

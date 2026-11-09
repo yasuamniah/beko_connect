@@ -1,0 +1,12 @@
+{
+  "domain": "beko_connect",
+  "name": "Beko Connect",
+  "codeowners": ["@yasuamniah"],
+  "config_flow": true,
+  "documentation": "https://github.com/yasuamniah/ha-beko-connect",
+  "integration_type": "hub",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/yasuamniah/ha-beko-connect/issues",
+  "requirements": [],
+  "version": "0.1.3"
+}

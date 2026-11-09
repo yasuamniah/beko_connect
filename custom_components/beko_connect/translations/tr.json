@@ -1,0 +1,90 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Beko Connect",
+        "description": "Beko Connect uygulamasında kullandığın hesapla giriş yap.",
+        "data": {
+          "email": "E-posta",
+          "password": "Şifre"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Yeniden giriş",
+        "description": "Beko Connect girişi reddedildi. Güncel şifreni gir.",
+        "data": {
+          "password": "Şifre"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Beko bulutuna ulaşılamıyor",
+      "invalid_auth": "Giriş reddedildi"
+    },
+    "abort": {
+      "already_configured": "Bu hesap zaten ekli",
+      "reauth_successful": "Yeniden giriş başarılı"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "internal_temperature": {
+        "name": "Dahili sıcaklık"
+      },
+      "power": {
+        "name": "Güç"
+      },
+      "error_code": {
+        "name": "Hata kodu"
+      },
+      "temperature_updated": {
+        "name": "Son sıcaklık güncellemesi"
+      }
+    },
+    "select": {
+      "swing_vertical": {
+        "name": "Dikey hava yönü",
+        "state": {
+          "off": "Kapalı",
+          "pos_6": "6 (en az açık)",
+          "pos_5": "5",
+          "pos_4": "4",
+          "pos_3": "3",
+          "pos_2": "2",
+          "pos_1": "1 (en açık)",
+          "auto": "Otomatik salınım"
+        }
+      },
+      "swing_horizontal": {
+        "name": "Yatay hava yönü",
+        "state": {
+          "off": "Kapalı",
+          "far_left": "En sol",
+          "left": "Sol",
+          "center": "Orta",
+          "right": "Sağ",
+          "far_right": "En sağ",
+          "left_center": "Sol-orta",
+          "right_center": "Sağ-orta",
+          "auto": "Otomatik salınım"
+        }
+      }
+    },
+    "switch": {
+      "turbo": {
+        "name": "Hızlı mod"
+      },
+      "air_clean": {
+        "name": "Hava temizleme"
+      },
+      "auto_drying": {
+        "name": "Otomatik kurutma"
+      }
+    },
+    "binary_sensor": {
+      "display_off": {
+        "name": "Ekran ışığı kapalı"
+      }
+    }
+  }
+}
